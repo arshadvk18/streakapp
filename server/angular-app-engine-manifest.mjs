@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/streakapp',
+  basePath: 'https://arshadvk18.github.io/streakapp',
   supportedLocales: {
   "en-US": ""
 },

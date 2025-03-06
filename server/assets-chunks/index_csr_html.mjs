@@ -3,7 +3,7 @@ export default `<!doctype html>
 <head>
   <meta charset="utf-8">
   <title>StreakTracker</title>
-  <base href="/streakapp/">
+  <base href="https://arshadvk18.github.io/streakapp/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles-M6CKNAHS.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-M6CKNAHS.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" as="style"></head>
