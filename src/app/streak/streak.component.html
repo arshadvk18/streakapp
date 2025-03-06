@@ -1,0 +1,18 @@
+<div class="container">
+    <h2>Streak Tracker</h2>
+  
+    <div>
+      <input type="text" [(ngModel)]="newStreakName" placeholder="Enter Streak Name" />
+      <button (click)="addStreak()">Add Streak</button>
+    </div>
+  
+    <ul>
+      <li *ngFor="let streak of streaks; let i = index">
+        <span>{{ streak.name }} - Streak: {{ streak.count }} days</span>
+        <button (click)="incrementStreak(i)">🔥 Continue</button>
+        <button (click)="resetStreak(i)">🔄 Reset</button>
+        <button (click)="deleteStreak(i)">❌ Delete</button>
+      </li>
+    </ul>
+  </div>
+  
